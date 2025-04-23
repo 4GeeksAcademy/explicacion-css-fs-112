@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
-   <head>
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Instagram feed con interactividad básica - pedroSC</title>
     <link rel="stylesheet" href="style.css" />
-   </head>
-   <body>
+</head>
+
+<body>
     <div class="wrapper">
         <div class="header">
             <h1>Instagram Feed (click imagen para ampliar) - 4Geeks</h1>
@@ -23,9 +25,10 @@
                         04/04
                     </div>
                 </div>
-                
+
                 <div class="photoFile">
-                    <img src="https://images.wallpapersden.com/image/download/dark-souls-remastered_a2ZraW6UmZqaraWkpJRobWllrWdma2U.jpg" alt="Imagen">
+                    <img src="https://images.wallpapersden.com/image/download/dark-souls-remastered_a2ZraW6UmZqaraWkpJRobWllrWdma2U.jpg"
+                        alt="Imagen">
                 </div>
 
                 <div class="photoDescription">
@@ -35,7 +38,7 @@
 
             <div class="photoFrame">
                 <div class="photoHeader">
-                    
+
                     <div class="photoTitle">
                         Kingdom Come Deliverance 2
                     </div>
@@ -43,7 +46,7 @@
                         03/04
                     </div>
                 </div>
-                
+
                 <div class="photoFile">
                     <img src="https://images2.alphacoders.com/139/1391177.jpg" alt="Imagen">
                 </div>
@@ -55,7 +58,7 @@
 
             <div class="photoFrame">
                 <div class="photoHeader">
-                    
+
                     <div class="photoTitle">
                         Metal Gear Solid
                     </div>
@@ -63,7 +66,7 @@
                         02/04
                     </div>
                 </div>
-                
+
                 <div class="photoFile">
                     <img src="https://wallpapers.com/images/hd/solid-snake-1pousrx1a73hnz3u.jpg" alt="Imagen">
                 </div>
@@ -75,7 +78,7 @@
 
             <div class="photoFrame">
                 <div class="photoHeader">
-                    
+
                     <div class="photoTitle">
                         Stardew Valley
                     </div>
@@ -83,7 +86,7 @@
                         01/04
                     </div>
                 </div>
-                
+
                 <div class="photoFile">
                     <img src="https://wallpapercave.com/wp/wp2234182.png" alt="Imagen">
                 </div>
@@ -94,5 +97,13 @@
             </div>
         </div>
     </div>
-   </body>
+
+    <script src="app.js"></script> <!-- Cargo el archivo JS que contendrá la interactividad de ampliar imágenes como popup -->
+
+    <div id="popupImagen"> <!-- Establezco una caja con id en lugar de clase, ya que, a priori, solo lo usaré para la función de ampliar imágenes del feed -->
+        <img id="popup-img">
+    </div>
+
+</body>
+
 </html>

@@ -1,0 +1,1 @@
+// Tengo que avanzar más en los ejercicios de JS, ya que hay muchas cosas que aún no se hacer por mi mismo. Mañana intentaré avanzar un poco con esto
