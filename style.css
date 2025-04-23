@@ -1,0 +1,36 @@
+body{
+	font-family: Arial;
+    font-weight: 100;
+    background: #797575;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+	width: 500px;
+    
+	margin:auto;
+}
+
+.titulo{
+    font-size: 15px;
+    width: 500px;
+}
+
+.nombre_titulo{
+    font-size: 15px;
+	text-align: left;
+}
+
+.fecha{
+    font-size: 15px;
+    text-align: right;
+}
+
+.comentario{
+    font-size: 15px;
+    
+}
+
+img{
+	width: 500px;
