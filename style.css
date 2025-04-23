@@ -2,6 +2,7 @@ img {
     object-fit: cover;
     width: 70%;
     height: 100%;
+    background-color: white;
 }
 
 .titulo {
@@ -10,10 +11,10 @@ img {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0;
-   }
+}
 
-   span {
-    text-align: right;
+span {
+    text-align: right !important;
     color: darkgrey;
 }
 
