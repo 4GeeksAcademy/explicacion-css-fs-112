@@ -1,0 +1,22 @@
+img {
+    object-fit: cover;
+    width: 70%;
+    height: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+   }
+
+   span {
+    text-align: right;
+    color: darkgrey;
+}
+
+.texto {
+    text-align: left;
+}
