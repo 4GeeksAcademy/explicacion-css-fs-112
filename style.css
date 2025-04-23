@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+}
+
+.cabecera {
+    background-color: white;
+}
+
+.publicacion {
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.foto_publi {
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
