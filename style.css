@@ -1,11 +1,15 @@
-body{
+body {
     background-color: lightgrey;        /*color de fondo*/
     margin: 0;
     padding: 0;
 }
 
 .container {
-    justify-content: center;    
-    text-align: center;
-    flex-direction: column;
+    display: flex;
+    flex-direction: column;     /*en columna*/
+    justify-content: center;     /*centrar*/
+    text-align: center;     /*centradas*/
+    margin: 10px auto;     /*margen entre publicaciones*/
+    width: 600px;   /*ancho de cada publicacion*/
+    padding: 30px;    /*espacio entre publicaciones*/
 }
