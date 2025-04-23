@@ -1,3 +1,4 @@
+
 body {
     background-color: lightgrey;        /*color de fondo*/
     margin: 0;
@@ -12,4 +13,50 @@ body {
     margin: 10px auto;     /*margen entre publicaciones*/
     width: 600px;   /*ancho de cada publicacion*/
     padding: 30px;    /*espacio entre publicaciones*/
+}
+.wrapper{
+    text-align: center;
+    margin: auto; 
+}
+.feed{
+    background-color: lightgrey;
+    margin: auto;
+    padding: 10px;
+    align-self: center;
+}
+.photo-header{
+display: flex;
+width: 100%;
+border: bottom;
+border-color: grey;
+}
+
+.header-left{
+    margin-left: 20px;
+    flex-grow: 1;
+}
+.middle{
+    flex-grow: 3;
+}
+.header-right{
+    margin-right: 20px;
+    
+}
+img{
+    width: 100%;
+}
+
+p {
+    font-size: larger;
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+.igna-photo{
+    background-color: white;
+    width: 900px;
+	align-self: center;
+    margin: auto;
+    margin-top: 50px;
 }
