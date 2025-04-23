@@ -1,0 +1,35 @@
+* {
+    /* border: 1px red dashed; */
+    /* margin: 0px; */
+}
+
+body {
+    background-color: black;
+    /* border: 2px rgb(0, 255, 183) dashed; */
+    height: 900px;
+}
+
+article {
+    width: 400px;
+    height: 650px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-post {
+    padding: 10px;
+
+
+}
+
+img {
+    width: inherit;
+}
+
+article p {
+    padding: 10px;
+    text-align: center;
+}
