@@ -1,0 +1,33 @@
+#postjud {
+    background-color: white;
+    max-width: 550px; 
+}
+
+img {
+    object-fit: contain;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.titulo {
+  
+    font-size: 16px;
+    margin: 0;
+    width: 500px;
+}
+
+span {
+    margin-left: auto;
+    color: darkgrey;
+}
+
+p {
+    justify-content: space-between;
+    display: flex;
+}
+
+.descrip {
+    text-align: justify;
+    width: 500px;
+}
