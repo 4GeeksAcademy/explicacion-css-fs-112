@@ -1,3 +1,19 @@
+
+body {
+    background-color: lightgrey;        /*color de fondo*/
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;     /*en columna*/
+    justify-content: center;     /*centrar*/
+    text-align: center;     /*centradas*/
+    margin: 10px auto;     /*margen entre publicaciones*/
+    width: 600px;   /*ancho de cada publicacion*/
+    padding: 30px;    /*espacio entre publicaciones*/
+}
 .wrapper{
     text-align: center;
     margin: auto; 
@@ -43,8 +59,4 @@ p {
 	align-self: center;
     margin: auto;
     margin-top: 50px;
-}
-body{
-    width: 100%;
-    margin: 0;
 }
