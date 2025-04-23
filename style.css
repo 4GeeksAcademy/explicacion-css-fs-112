@@ -1,0 +1,15 @@
+.postcard-header img {
+	width: 40px;
+	height: 40px;
+	align-self: center;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header h1 {
+	width: 400px;
+}
+.postcard-body {
+	display: flex;
+	height: 170px;
+}
