@@ -13,3 +13,23 @@
 	display: flex;
 	height: 170px;
 }
+.body-left p {
+	margin-top: none;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: solid;
+	border-color: grey;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input::placeholder {
+	color: grey;
+	opacity: 0.5;
+}
