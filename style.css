@@ -8,12 +8,6 @@
    
 }
 
-img {
-
-    width: 300px;
-    
-}
-
 
 span{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,7 +24,6 @@ span{
 }
 
 body {
-
     background-color: rgb(90, 92, 89);
     width: 300px;
 }
@@ -58,4 +51,5 @@ body {
 
 img{
     display: block;
+    width: 300px;
 }
