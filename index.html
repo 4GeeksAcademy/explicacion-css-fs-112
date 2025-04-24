@@ -4,14 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Instagram feed con interactividad básica - pedroSC</title>
+    <title>Instagram Feed de pedroSC (contador de likes) - 4Geeks</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="wrapper">
         <div class="header">
-            <h1>Instagram Feed (click imagen para ampliar) - 4Geeks</h1>
+            <h1>Instagram Feed de pedroSC (contador de likes) - 4Geeks</h1>
         </div>
         <div class="photoFeed">
 
@@ -34,6 +34,11 @@
                 <div class="photoDescription">
                     En este exigente juego se muere mucho
                 </div>
+
+                <div class="likes">
+                    <button class="boton-likes">❤️</button>
+                    <span class="contador-likes">0</span>
+                </div>
             </div>
 
             <div class="photoFrame">
@@ -53,6 +58,11 @@
 
                 <div class="photoDescription">
                     En este juego de rol hablas mucho y hay mucho contenido
+                </div>
+
+                <div class="likes">
+                    <button class="boton-likes">❤️</button>
+                    <span class="contador-likes">0</span>
                 </div>
             </div>
 
@@ -74,6 +84,11 @@
                 <div class="photoDescription">
                     En este juego te puede esconder debajo de una caja de cartón
                 </div>
+
+                <div class="likes">
+                    <button class="boton-likes">❤️</button>
+                    <span class="contador-likes">0</span>
+                </div>
             </div>
 
             <div class="photoFrame">
@@ -94,15 +109,21 @@
                 <div class="photoDescription">
                     En este juego puedes plantar nabos
                 </div>
+
+                <div class="likes">
+                    <button class="boton-likes">❤️</button>
+                    <span class="contador-likes">0</span>
+                </div>
             </div>
         </div>
     </div>
 
-    <script src="app.js"></script> <!-- Cargo el archivo JS que contendrá la interactividad de ampliar imágenes como popup -->
+    <script src="app.js"></script>
 
-    <div id="popupImagen"> <!-- Establezco una caja con id en lugar de clase, ya que, a priori, solo lo usaré para la función de ampliar imágenes del feed -->
-        <img id="popup-img">
-    </div>
+    <!--  <div id="popupImagen"> 
+    <img id="popup-img">
+    </div> -->
+    <!-- Establezco una caja con id en lugar de clase, ya que, a priori, solo lo usaré para la función de ampliar imágenes del feed -->
 
 </body>
 
