@@ -1,4 +1,56 @@
 
+
+.encabezado {
+    background-color: bisque;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+   
+}
+
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 94, 0);
+
+}
+
+.nota{
+    background-color: bisque;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.lista {
+    font-size: 20px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    
+
+}
+
+.subtitulo {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 0px;
+    background-color: bisque;
+  
+}
+
+
+img{
+    display: block;
+    width: 300px;
+}
+
 body {
     background-color: lightgrey;        /*color de fondo*/
     margin: 0;
@@ -60,3 +112,4 @@ p {
     margin: auto;
     margin-top: 50px;
 }
+
